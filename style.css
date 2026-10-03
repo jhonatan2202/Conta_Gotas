@@ -1,0 +1,43 @@
+:root{
+    --cor-principal:#2298e1;
+    --cor-secundaria:#0a4b73;
+    --cor-tercearia:#2484bf;
+    --cor-quartenaria:#3bacd9;
+    --cor-letra:#737373;
+    --cor-botao:#4fce2d;
+    --tamanho-fonte-titulo:18px;
+    --tamanho-fonte-texto:14px;
+}
+
+@font-face {
+    font-family: "trebuc";
+    src: url(font/trebuc.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--cor-secundaria);
+    font-family: "trebuc";
+    color: var(--cor-letra);
+} 
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1200px;
+}
